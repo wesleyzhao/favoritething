@@ -1,0 +1,624 @@
+/*
+Theme Name: sixfivenine
+Theme URI: http://www.sixfivenine.com/
+Description: sixfivenine theme.
+Version: 2.0
+Author: Dan Shipper
+Author URI: http://www.conveniencesoftware.com
+*/
+html{                 
+}
+body{
+	font: 12px/18px Helvetica;                 
+	/*
+background-image: url("images/bg.gif");
+	background-repeat: repeat-x;
+*/
+	background-color: #F2F2F2;     
+    margin: 0px;   
+} 
+
+input:focus {outline: none; }
+      
+@font-face { 
+	font-family: American Typewriter;         
+	src: url("fonts/american-typewriter.ttf"); 
+} 
+    
+@font-face { 
+	font-family: Chalkboard;         
+	src: url("fonts/Chalkboard.ttf"); 
+}
+       
+@font-face { 
+	font-family: AT;         
+	src: url("fonts/amrtypen.ttf"); 
+}
+
+img{
+	border: 0;	
+}
+a {
+	outline: none;
+	color: #244ac5;
+  	text-decoration: none;
+   	
+}
+a img{
+	border: none;	
+}
+
+b {
+
+}
+ 
+h1{                       
+	font-size: 20px;
+	color: #7851A9;
+}              
+
+h2{                                     
+	margin-bottom: 5px;
+}
+
+.top{          
+	height: 60px;
+	width: 850px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	background: #7851A9;
+	border:1px none; border-radius:25px 25px 25px 25px; -moz-border-radius: 25px 25px 25px 25px; -khtml-border-radius: 25px 25px 25px 25px; -webkit-border-radius: 0px 0px 10px 10px;
+	border-color: black;
+}
+
+.title-bar{
+	width: 800px;
+	margin: auto;
+	font: 48px "Courier New";
+	font-weight: bold;
+	color: white;  
+	position: relative;
+	top: 5px;
+}
+
+.title-links{
+	color: white;
+	font: 18px Georgia;
+	float: right;   
+	padding-top:10px;
+}  
+
+.logo{
+	font-family:"Helvetica";
+	font-size:40px;
+	color:white;
+	padding-top: 15px;
+}      
+
+a.title-links{
+	color: white;
+	padding-left: 10px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+.title-links a:hover {
+	text-decoration:underline;
+}
+
+.content{
+	width: 850px;   
+	margin: auto;               
+}      
+
+#footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 60px;
+ margin-top: -2.2em;  
+ background-color: black;  
+}  
+
+.white{
+	color: white;
+	text-decoration: none;
+	font-size:12px;
+}          
+
+#main-top{
+	/*
+background-image: url("images/main-top.gif");
+	height: 12px;
+	width: 868px;
+*/
+}             
+
+#main-middle{
+	
+	border:3px #CAC3EF solid ; border-radius:25px 25px 25px 25px; -moz-border-radius: 25px 25px 25px 25px; -khtml-border-radius: 25px 25px 25px 25px; -webkit-border-radius: 25px 25px 25px 25px;
+	width: 850px;    
+	overflow: hidden;
+	background: white;
+} 
+
+#profile-middle{
+	border:1px solid ; border-radius:25px 25px 25px 25px; -moz-border-radius: 25px 25px 25px 25px; -khtml-border-radius: 25px 25px 25px 25px; -webkit-border-radius: 25px 25px 25px 25px;
+	background: #CAC3EF;
+	width: 850px;    
+	background-repeat: repeat-y; 
+	overflow: hidden;
+	border-color:white;
+}
+
+#landing-main {
+}
+
+#main-bottom{
+	/*
+background-image: url("images/main-bottom.gif");
+	height: 12px;
+	width: 868px;
+*/
+}
+
+.main-content{
+	padding: 10px;
+	width:850;
+}                       
+
+.login-container{
+	width: 650px;
+	margin: auto;
+	
+} 
+
+.field-holder{
+	width: 390px;
+	height: 50px;
+	background: url("images/text-field-big.png") no-repeat;  
+}  
+
+
+.login-big{
+	font: 24px Helvetica;
+	margin-top: 8px;
+	width: 370px;
+	height: 30px;   
+	margin-left: 10px;
+	border: none;
+	background: none;
+}  
+
+.favorite-field{
+	font: 24px Helvetica;  
+	width: 650px;
+	height: 55px;
+	margin-left: 10px;
+	border: none;
+	background: none; 
+	
+}
+
+#get-users {
+	width:380px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Georgia";
+	font-size:16px;
+	font-weight:bold;
+	color:#343434;
+	margin-top:10px;
+	line-height:1.5em
+}
+
+#get-users a:hover{
+	text-decoration:underline;
+}
+
+
+#highlight{
+       background-color: #f3ff90;
+       font: 15px Helvetica;
+}
+
+#create-account{
+	padding-top:15px;
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:8px;
+	font-family:"helvetica";
+	
+	color:grey;
+}
+
+.username-small {
+	font-size:14px;
+	font-family:"helvetica";
+	color:grey;
+}
+
+.email{
+	font-size: 14px;
+}
+
+.password{
+	font-size:14px
+}
+
+
+#favorite {
+	border:2px groove black; border-radius:10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -khtml-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;
+    background: rgba(235,235,235,1);
+    padding-left:10px;
+    margin-bottom:10px;
+}
+
+.favorite-field-holder{
+    width: 715px;
+	height: 75px;
+	
+	margin-left: 10px;
+}
+
+#a-favorite{
+	overflow:hidden;
+	padding-bottom:5px;
+	border-bottom: 2px dotted #CAC3EF;
+}
+      
+#main-image{
+	margin-left: 10px;
+	margin-right: 10px;
+}     
+
+#float-right{
+	float: right;
+}  
+
+#login-text{
+	font: 20px Helvetica;
+	color: #404040; 
+	padding-top: 10px;
+	font-weight: bold;
+}      
+
+#small-text{
+	position: relative;
+	right: 120px;
+	bottom: 25px;
+	font: 15px Helvetica; 
+	width: 50px;
+}    
+
+.check{
+	padding-right: 5px;
+}  
+
+.heading{
+	width: 600px;
+	font: 30px Georgia;
+	color: #363636; 
+    float: right;
+}   
+
+.picture-div{   
+	padding-right: 20px;  
+	padding-bottom: 10px;
+	padding-left:15px;
+	padding-top:5px;
+}
+
+.picture{
+	max-width: 200px;
+	max-height: 200px;  
+} 
+
+.username{
+	font: 20px Helvetica;
+	font-weight: bold;    
+	color: black;
+	padding-top: 20px; 
+}
+
+.username a:hover {
+	text-decoration:underline;
+}
+
+.result-username a:link {
+    color:rgba(9,65,134,1);
+    text-decoration:none;
+    font-size:20px;
+    float:left;
+    padding-top:20px;
+    display:inline;
+}
+
+.result-username a:visited {
+    color:rgba(9,65,134,1);
+    text-decoration:none;
+}
+
+.result-username a:hover {
+    text-decoration:underline;
+}
+
+#results-container{
+	width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    background:white;
+    margin-top:20px;
+    padding:10px;
+    border:2px groove ; border-radius:10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -khtml-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.one-result {
+	border: 1px dotted #3B5998;  border-radius:10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -khtml-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;    
+ 	display:inline;
+	width:175px;
+	height:90px;
+}
+ul{
+	padding-top: 20px;
+}
+
+li {
+	display:inline;
+	padding: 5px; 
+	margin: 10px;     
+}                      
+
+.fb-span{        
+	display: inline;
+	padding: 10px;  
+	margin: 10px;
+} 
+
+                   
+.username-link{
+	position: relative;
+	top: 10px;
+	right: 50px;
+}
+
+.friend-image {
+	height:70px;
+	float:left;
+	margin:10px;
+}
+
+
+#title a:link {
+	text-decoration:none;
+	color: #244AC5;
+}
+
+#title a:hover {
+	text-decoration:underline;
+}
+
+.send-button{
+	float: right;
+	padding-right: 15px;
+	padding-top:5px;
+	margin-left:10px;
+}           
+
+#chars-count{            
+	position: relative;
+	left: 600px;   
+	bottom: 30px;
+	font: 12px Helvetica;
+} 
+
+#send-as{
+	position: relative;
+	left: 30px;
+	bottom: 15px;
+	padding-top:10px;
+} 
+
+.favorites-box{
+	width: 825px;
+	background-color: #F1EAF5;
+	margin: auto;
+	margin-top: 40px; 
+	padding: 10px;   
+	font: 18px Helvetica;
+	border-color:white;
+	border:1px outset; border-radius:10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -khtml-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;
+}                        
+
+#thumbs{
+	float: right;
+	color: #7ab661;
+}     
+
+.reply{
+	color: #59b3ff;
+	text-decoration: none;
+	padding-left: 10px;
+} 
+
+.reply a:hover { 
+	text-decoration: underline;
+}
+
+#a-reply{
+	width: 400px;
+	font: 15px Helvetica;
+	margin-left: 100px;
+	margin-top: 10px;
+}   
+
+.login-head{ 
+	font: 30px Helvetica;
+	font-weight: bold;
+	color: black;
+	
+} 
+
+.nice-login{
+	width: 150px;
+	height: 20px;
+	border-color: #363636;
+	border: solid 1px;
+	background-color: #F2F2F2;
+}    
+
+.message{
+	font: 12px Helvetica;
+	color: red;
+} 
+
+.dashboard-super{ 
+	width: 875px;     
+	margin: auto;
+	margin-top:10px;
+	background:white;
+	/*
+border-color:white;
+	border:1px solid; border-radius:10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -khtml-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;
+	
+*/
+} 
+
+
+.settings-super{
+	width: 850px;     
+	margin: auto;
+	margin-top:10px;
+	background:white;
+	border:3px groove; border-radius:10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -khtml-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;
+
+}       
+
+.dashboard-header{
+	font: 36px Helvetica;
+	color: #0b5e9e;
+}     
+
+.big-link{          
+	height: 60px;
+	width: 850px;
+	border: dotted #363636 1px;    
+ 	margin-left:auto;
+ 	margin-right:auto;
+    margin-top: 10px;
+	margin-bottom: 10px; 
+	text-align: center;
+	font: 38px Georgia;
+	                  
+}                     
+
+.dashboard-subhead{
+	font: 30px Georgia;      
+	color: #363636;  
+	margin: 0 auto;
+	padding: 10px;
+}                 
+
+.response-header{
+	font: 30px Georgia;
+	color: #363636;
+	font-weight: bold;
+	margin: auto;      
+	padding: 10px;
+}       
+
+.responses{ 
+	margin: 0 auto; 
+	padding: 10px;
+	width: 825px;
+	 
+	font: 18px Helvetica;
+	/*
+border-color:grey;
+	border:1px groove;
+	background-color: #d9f0f8;
+*/
+}   
+
+.settings-content{
+	margin: 0 auto;
+	width: 400px;
+}
+
+.delete-reply-button{
+	float: right;
+}
+
+#footer{
+    font-family: "Helvetica";
+    font-size: 12px;
+    color: white;
+    bottom: 0px;
+    padding-right: 10px;
+    text-align: right;
+    background:rgba(120, 81, 169, 1);
+    width:850px;
+    clear: both;
+    height: 20px;
+    margin: 10px auto 0px auto;
+    border:1px none; border-radius:5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px; -khtml-border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px;
+
+}
+
+#footer a:link,a:visited {
+    text-decoration: none;
+    
+}
+
+
+
+#footer-links a:link, a:visited {
+
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    
+}
+
+.one-profile{
+    padding: 20px;
+    clear:left;
+}
+
+.profile-pic{
+    height:230px;
+    float: left;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.bio{
+    width: 700px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.profile-name{
+    font-size: 24px;
+    padding-top: 20px;
+    color: Black;
+    font-weight: 800;
+}
+.links {
+    
+}
+
+.links a:link {
+    color: #0073D2;
+}
+
+.links a:visited {
+    color: #0073D2;
+}
+.links a:hover {
+	text-decoration:underline;
+}
